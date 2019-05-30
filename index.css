@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,18 +58,19 @@ html {
 }
 
 .logoImg {
-    display: flex;
-    justify-content: flex-start;
-    width: 80px;
+    
+    width: 83px;
     height: 80px;
    
+   
 }
+
+
 
 nav {
     display: flex;
     flex-direction: row; 
     justify-content: flex-end;
-    justify-content: space-evenly;
     top: 0;
     width: 100%;
     padding-top: 25px;
@@ -83,32 +86,39 @@ nav a {
     text-decoration: none;
     font-size: 2.5rem;
     color: white;
-    margin-top: 20;
+    margin: 20px 40px 0px 40px;
+    
     
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
     font-weight: bold;
     text-align: center;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     text-align: center;
     margin-bottom: 40px;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
+.DropDown {
+    width: 100%;
+}
 
+.ContainPic {
+   margin: 40px;
+}
 
 button {
 	width: 150px;
-    height: 35px;
-    font-size: 1rem;
+    height: 40px;
+    font-size: 1.5rem;
     text-align: center;
 	margin-top: 40px;
     border-radius: 25px;
@@ -124,25 +134,46 @@ button {
     
 }
 
+.SubContainer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
 .ImgTxt {
     display: flex;
     flex-direction: row-reverse;
 
 }
 
+.ImgTxt2 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 .SubInfoL {
-    margin-top: 100px;
-    margin-right: 130px;
-    width: 45%;
+    margin-top: 115px;
+    margin-right: 240px;
+    width: 40%;
     text-align: center;
 
 }
 
 .SubInfoR {
-    margin-top: 100px;
-    margin-right: 130px;
-    width: 45%;
+    margin-top: 115px;
+    margin-right: 260px;
+    width: 42%;
     text-align: center;
+
 }
+
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #232323;
+}
+
 
 
