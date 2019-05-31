@@ -1,13 +1,29 @@
 // Your code goes here
+const hamMenu = document.querySelector(".iTag")
+//console.log(hamMenu)
 
-function myFunction() {
-   const x = document.getElementById("MyNav2");
-    if (x.className === "navdiv") {
-      x.className += " responsive";
-    } else {
-      x.className = "navdiv";
-    }
-  }
+const closeMenu = document.querySelector(".xTag")
+
+const menu = document.querySelector(".nav2")
+console.log(menu)
+
+const toggleMenu = () => {
+    menu.style.display ="block"
+    hamMenu.style.display="none"
+    closeMenu.style.display="block"
+
+}
+
+const toggleMenuOff = () => {
+    menu.style.display ="none"
+    hamMenu.style.display="block"
+    closeMenu.style.display="none"
+
+}
+
+hamMenu.addEventListener("click",() => toggleMenu());
+closeMenu.addEventListener("click",()=> toggleMenuOff())
+
 
 
 // //1. mouseover links change color to purple///////////////////////////////////////
