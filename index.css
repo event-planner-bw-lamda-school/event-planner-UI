@@ -94,6 +94,14 @@ nav a {
     
 }
 
+.iTag {
+    display: none;
+}
+
+.xTag {
+    display: none;
+}
+
 @media (max-width: 500px) {
     .iTag {
         display: block;
