@@ -71,7 +71,7 @@ html {
     justify-content: space-between;
     top: 0;
     width: 100%;
-    padding: 50px;
+    padding: 1.5rem;
     background-color: rgba(78, 20, 140, 0.68);
     position: fixed;
 }
